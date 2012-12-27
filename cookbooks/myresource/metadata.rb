@@ -7,4 +7,4 @@ version          "0.1.0"
 
 depends "rightscale"
 
-recipe "cron::default","Testing recipe that stops cron service"
+recipe "myresource::default","Testing recipe that stops cron service"
