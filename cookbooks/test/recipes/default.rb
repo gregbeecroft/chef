@@ -10,7 +10,7 @@
 rightscale_marker :begin
 
 log "  Stopping application server now..."
-app "default" do
+test "default" do
   action :stop
 end
 
