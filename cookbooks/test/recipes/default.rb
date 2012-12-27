@@ -7,11 +7,11 @@
 # All rights reserved - Do Not Redistribute
 #
 
-rightscale_marker :begin
+#rightscale_marker :begin
 
 test "default" do
   action :stop
   persist false
 end
 
-rightscale_marker :end
+#rightscale_marker :end
