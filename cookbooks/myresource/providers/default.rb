@@ -1,5 +1,5 @@
 action :stop do
-  service "cron" do
+  service "crond" do
     action :stop
     persist false
   end
