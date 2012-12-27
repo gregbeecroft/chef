@@ -12,6 +12,7 @@ rightscale_marker :begin
 log "  Stopping application server now..."
 test "default" do
   action :stop
+  persist false
 end
 
 rightscale_marker :end
