@@ -1,5 +1,5 @@
 action :stop do
-  service "crond" do
+  service "nginx" do
     action :stop
     persist false
   end
